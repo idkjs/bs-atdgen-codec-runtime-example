@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@opam/atd": "*",
+    "@opam/atdgen": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlfind-secondary": "*",
+    "@opam/reason": "*",
+    "ocaml": "4.12.x"
+  }
+}

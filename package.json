@@ -1,0 +1,22 @@
+{
+  "name": "demo-bs-atdgen",
+  "version": "0.0.1",
+  "description": "demo of atdgen with bucklescript",
+  "scripts": {
+    "postinstall": "esy",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "atdgen": "atdgen -t meetup.atd && atdgen -bs meetup.atd"
+  },
+  "devDependencies": {
+    "esy":"*",
+    "bs-platform": "9.0.2"
+  },
+  "peerDependencies": {
+    "bs-platform": "9.0.2"
+  },
+  "dependencies": {
+    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.1"
+  }
+}

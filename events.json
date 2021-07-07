@@ -1,0 +1,20 @@
+[
+  {
+    "guests": [
+      {
+        "email": "louis@nospam.com",
+        "name": "louis"
+      }
+    ],
+    "date": 1625677102893,
+    "host": {
+      "email": "louis@nospam.com",
+      "name": "louis"
+    },
+    "name": "OCaml/Reason Meetup!",
+    "access": {
+      "address": "Central Park",
+      "type": "Public"
+    }
+  }
+]
